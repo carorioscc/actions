@@ -5,9 +5,9 @@ on: [push]
 # lo que se va a ejecutar dentro de un servidor
 jobs:
   hola:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
-      - name : Hola Mundo
+    - name : Hola Mundo
       #run ejecuta un comando
       run : echo "Hola Mundo"
